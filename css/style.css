@@ -403,7 +403,7 @@ body {
   border-bottom: 3px solid var(-line); }
   @media only screen and (max-width: 33.45em) {
     .overview {
-      padding: 0 .5rem; } }
+      padding: 0 0.5rem; } }
   .overview__heading {
     font-size: 2.25rem;
     font-weight: 300;
@@ -567,13 +567,14 @@ body {
     height: 1.5rem;
     width: 1.5rem;
     margin-right: 0.5rem;
-    /*
     background-image: url(../img/chevron-thin-right.svg);
-    background-size: cover;
-    */
-    background-color: var(--color-primary);
-    -webkit-mask-image: url(../img/chevron-thin-right.svg);
-    -webkit-mask-size: cover; }
+    background-size: cover; }
+    @supports (-webkit-mask-image: url()) or (mask-image: ur()) {
+      .list__item::before {
+        background-color: var(--color-primary);
+        -webkit-mask-image: url(../img/chevron-thin-right.svg);
+        -webkit-mask-size: cover;
+        background-image: none; } }
   .list__item {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;

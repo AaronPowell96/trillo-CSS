@@ -9,8 +9,8 @@
 //SEARCH
 .search {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 40%;
-          flex: 0 0 40%;
+  -ms-flex: 0 0 40%;
+  flex: 0 0 40%;
 
   display: -webkit-box;
 
@@ -18,19 +18,19 @@
 
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   @media only screen and (max-width: $bp-smaller) {
     background-color: var(--color-grey-light-2);
     -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+    -ms-flex-order: 1;
+    order: 1;
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
   }
   &__input {
     font-family: inherit;
@@ -70,7 +70,7 @@
 
     &:active {
       -webkit-transform: translateY(2px);
-              transform: translateY(2px);
+      transform: translateY(2px);
     }
   }
   &__icon {
@@ -88,10 +88,10 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-item-align: stretch;
-      align-self: stretch;
+  align-self: stretch;
   //All direct children of user nav
   & > * {
     padding: 0 2rem;
@@ -101,8 +101,8 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   & > *:hover {
@@ -133,11 +133,11 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   &__user {
@@ -172,8 +172,8 @@
     }
     @media only screen and (max-width: $bp-medium) {
       -webkit-box-flex: 1;
-          -ms-flex: 1;
-              flex: 1;
+      -ms-flex: 1;
+      flex: 1;
     }
 
     &:active:before {
@@ -189,7 +189,7 @@
       width: 3px;
       background-color: var(--color-primary);
       -webkit-transform: scaleY(0);
-              transform: scaleY(0);
+      transform: scaleY(0);
       -webkit-transition: width 0.3s cubic-bezier(1, 0, 0, 1) 0.2s,
         background-color 0.1s, -webkit-transform 0.2s;
       transition: width 0.3s cubic-bezier(1, 0, 0, 1) 0.2s,
@@ -203,7 +203,7 @@
     &:hover::before,
     &--active::before {
       -webkit-transform: scaleY(1);
-              transform: scaleY(1);
+      transform: scaleY(1);
       width: 100%;
     }
   }
@@ -218,14 +218,14 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     position: relative;
     z-index: 10;
     @media only screen and (max-width: $bp-medium) {
       -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
       padding: 2rem;
     }
     @media only screen and (max-width: $bp-smaller) {
@@ -234,8 +234,8 @@
     @media only screen and (max-width: $bp-smallest) {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
       padding: 1.5rem 0.5rem;
     }
   }
@@ -289,11 +289,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border-bottom: 3px solid var(-line);
   @media only screen and (max-width: $bp-smaller) {
-    padding: 0 .5rem;
+    padding: 0 0.5rem;
   }
 
   &__heading {
@@ -313,13 +313,13 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     @media only screen and (max-width: $bp-smaller) {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
       text-align: center;
     }
     @media only screen and (max-width: $bp-smallest) {
@@ -339,8 +339,8 @@
     display: flex;
     font-size: 1.2rem;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     //creates gap in middle to take up entire space
     margin-left: auto;
     &-icon {
@@ -360,21 +360,21 @@
     margin-left: 3rem;
     color: #fff;
     -ms-flex-item-align: stretch;
-        align-self: stretch;
+    align-self: stretch;
     padding: 0 2.25rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     text-align: center;
 
     @media only screen and (max-width: $bp-small) {
@@ -432,49 +432,49 @@
   &:focus {
     outline: none;
     -webkit-animation: pulsate 1s infinite;
-            animation: pulsate 1s infinite;
+    animation: pulsate 1s infinite;
   }
 }
 
 @-webkit-keyframes pulsate {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
   }
   50% {
     -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    transform: scale(1.1);
     -webkit-box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.25);
-            box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.25);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
   }
 }
 
 @keyframes pulsate {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
   }
   50% {
     -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    transform: scale(1.1);
     -webkit-box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.25);
-            box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.25);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
   }
 }
 
@@ -496,7 +496,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 
   &__item::before {
     content: "";
@@ -504,18 +504,22 @@
     height: 1.5rem;
     width: 1.5rem;
     margin-right: 0.5rem;
-    /*
+
+    //Older browsers
     background-image: url(../img/chevron-thin-right.svg);
     background-size: cover;
-    */
-    background-color: var(--color-primary);
-    -webkit-mask-image: url(../img/chevron-thin-right.svg);
-    -webkit-mask-size: cover;
+
+    @supports (-webkit-mask-image: url()) or (mask-image: ur()) {
+      background-color: var(--color-primary);
+      -webkit-mask-image: url(../img/chevron-thin-right.svg);
+      -webkit-mask-size: cover;
+      background-image: none;
+    }
   }
   &__item {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
     margin-bottom: 0.7rem;
   }
 }
@@ -529,8 +533,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 
   &__friends {
     display: -webkit-box;
@@ -539,7 +543,7 @@
   }
   &__photo {
     -webkit-box-sizing: content-box;
-            box-sizing: content-box;
+    box-sizing: content-box;
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
@@ -560,7 +564,7 @@
 .review {
   background-color: #fff;
   -webkit-box-shadow: var(--shadow-light);
-          box-shadow: var(--shadow-light);
+  box-shadow: var(--shadow-light);
   padding: 3rem;
   margin-bottom: 3.5rem;
   position: relative;
@@ -582,11 +586,11 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 
     &-box {
       margin-left: 1.5rem;
@@ -661,7 +665,8 @@
   position: relative;
   background-image: -webkit-gradient(
     linear,
-    left top, right top,
+    left top,
+    right top,
     from(var(--color-primary-light)),
     to(var(--color-primary-dark))
   );
@@ -692,7 +697,8 @@
   &:hover {
     background-image: -webkit-gradient(
       linear,
-      right top, left top,
+      right top,
+      left top,
       from(var(--color-primary-light)),
       to(var(--color-primary-dark))
     );
@@ -702,11 +708,11 @@
       var(--color-primary-dark)
     );
     -webkit-animation: pulsate 1s infinite;
-            animation: pulsate 1s infinite;
+    animation: pulsate 1s infinite;
   }
   &:hover &__visible {
     -webkit-transform: translateY(100%);
-            transform: translateY(100%);
+    transform: translateY(100%);
   }
 
   &:hover &__invisible {
